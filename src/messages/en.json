@@ -1,0 +1,134 @@
+{
+  "homePage": {
+    "wellcome": "Hello! Wellcome To My Website",
+    "job": "a web development",
+    "name": "amirmohamad",
+    "lastName": "zangiabadi",
+    "desc": "I am a front-end developer in Kerman",
+    "profile": "Profiles",
+    "credential": "Credential",
+    "project": "Projects",
+    "tprofile": "stay with me",
+    "tcredential": "more about me",
+    "tproject": "show case",
+    "itemPOne": "CLIENTS",
+    "itemPTwo": "WORLDWIDE",
+    "itemYOne": "YEARS",
+    "itemYTwo": "EXPERIENCE",
+    "itemWOne": "TOTAL",
+    "itemWTwo": "PROJECT"
+  },
+  "aboutPage": {
+    "title": "SELF-SUMMARY",
+    "name": "AMIR MOHAMMAD ZANGIABADI",
+    "desc": "I am Amir Mohammad Zangi Abadi, a programmer and interested in developing web pages, my expertise is in the field of analysis, design and implementation of web programs. For me, quality is important along with speed."
+  },
+  "credentialPage": {
+    "name": "Amirmohammad Zangiabadi",
+    "title": "about me",
+    "skills": "skills",
+    "descOne": "I am Amir Mohammad Zangi Abadi, a programmer and interested in developing web pages, my expertise is in the field of analysis, design and implementation of web programs. For me, quality is important along with speed.",
+    "descTwo": "I am interested in group work because it allows me to participate and exchange ideas with others. I am also able to share my experiences with others and benefit from their experiences. Working in a group is better and more effective to achieve goals and creates a team that supports each other. It gives me a sense of satisfaction and a stronger social connection. ",
+    "descThree": "What is important to me is the commitment to get the job done as quickly as possible and the ability to achieve the best quality",
+    "year": "Year",
+    "month": "Month",
+    "experience": "Experience"
+  },
+  "contactPage": {
+    "mail": "Mail Us",
+    "contact": "Contact Us",
+    "loc": "laocation",
+    "media": "social media",
+    "city": "kerman , iran"
+  },
+  "worksPage": {
+    "title": "All Project",
+    "github": "Github",
+    "live": "Live",
+    "details": "Details",
+    "show": "show case",
+    "react": "React is a popular JavaScript library for building user interfaces. It allows developers to create interactive and reusable components that can update efficiently and smoothly. React uses a virtual DOM (document object model) to efficiently update only the parts of the UI that need to be changed, resulting in faster and more responsive applications. One key concept in React is the component-based architecture, where the UI is broken down into smaller, reusable components that can be combined to build complex user interfaces. These components can have their own state and lifecycle methods, making it easier to manage the UIs state and behavior. React also promotes a declarative programming style, where developers describe what the UI should look like based on its current state, rather than imperatively defining each step of the UIs update. This makes the code more predictable and easier to reason about. React is widely used for building single-page applications, as well as mobile applications using React Native. It has a large and active community, with many resources and libraries available to help developers build robust and efficient applications.",
+    "reactrouterdom": " React Router Dom is a popular library for handling routing in React applications. It provides a set of components that allow developers to define different routes and render different components based on the current URL. With React Router Dom, developers can easily create single-page applications with multiple views and navigation between them. It also provides features like nested routing, dynamic routing, and URL parameters, allowing for more advanced navigation and routing. React Router Dom is widely used and well-documented, making it a reliable choice for managing routing in React applications",
+    "materialui": "Mui is a popular library for building user interfaces in React. It provides a set of pre-designed components that can be easily customized and styled to create beautiful and responsive UIs. Mui follows the Material Design guidelines, offering a modern and clean design aesthetic. It also includes features like responsive layouts, accessibility support, and smooth animations. With Mui, developers can quickly prototype and build high-quality UIs for web and mobile applications",
+    "graphql": "GraphQL is a query language and runtime for APIs that was developed by Facebook. It provides a more efficient and flexible approach to fetching and manipulating data compared to traditional RESTful APIs.",
+    "hygraph": "Hygraph is a ready-to-use backend framework for building and developing websites and web applications. Based on GraphQL, it offers powerful features of GraphQL to simplify and expedite the creation and management of your web services. With Hygraph, you can easily build scalable, efficient, and flexible backend systems for your websites and apps",
+    "redux": "In addition, Redux has been used as a state management tool. Redux is a predictable state container for JavaScript apps that helps manage the application state in a more structured and organized way. It provides a single source of truth, making it easier to track changes and manage the state across different components.",
+    "axios": "Axios is a popular JavaScript library used for making HTTP requests from a web client to a server. It provides a simple and intuitive API for sending asynchronous HTTP requests and handling responses. Axios can be used with any JavaScript framework or library, including Vue.js, and it offers features like automatic JSON parsing, request cancellation, and response interceptors, making it a powerful tool for managing API calls in a web application.",
+    "nextjs": "A Next.js-powered e-commerce website utilizes the techniques of SSG (Static Site Generation), SSR (Server Side Rendering), and ISR (Incremental Static Regeneration).",
+    "ssg": "SSG refers to generating static pages during the website build process. This means that when the update frequency is not high, the pages are automatically generated and cached. On the next request, the server uses the cached version of the pages. This approach provides faster and more efficient performance.",
+    "ssr": "SSR, on the other hand, generates HTML on each request, which allows the server to render React components and send the fully rendered page to the client. This ensures that the content is always up to date.",
+    "isr": "Finally, ISR brings the best of both SSG and SSR. With ISR, you can statically generate parts of your page while also specifying a time interval for them to be regenerated. This allows you to have dynamic content on your static pages, ensuring both performance and freshness.",
+    "pages": "Overall, the combination of SSG, SSR, and ISR in a Next.js e-commerce website helps achieve fast loading times, better SEO, and a great user experience. In a similar fashion to Next.js, MongoDB is commonly used with the MERN stack. MongoDB is a NoSQL database that works well with JavaScript and is used for storing data and information generated by websites.",
+    "tailwind": "In addition to that, Tailwind CSS has been used. Tailwind CSS is a utility-first CSS framework that enables rapid development by providing a set of ready-to-use CSS classes. It allows developers to build UI components quickly and efficiently by applying these classes directly in their markup. Tailwind CSS also promotes a highly customizable approach, enabling developers to easily create unique designs without writing custom CSS code.",
+    "tiptap": "Tiptap is a modern and extensible rich text editor framework built with Vue.js. It provides a set of customizable and reusable components for creating and editing rich text content. Tiptap supports various features like formatting, embedding media, and handling user input, making it a great choice for implementing a rich text editing functionality in an application.",
+    "nextauth": " The phrase I have used indicates that you have utilized a specific tool or technology in this project. In this particular case, NextAuth.js is mentioned as the tool that has been used. NextAuth.js is a developer-friendly web development library that provides easy-to-use authentication features in React and Next.js applications.",
+    "lastestnext": "The latest version of Next.js is 13.4.13, released on August 8, 2023. This version includes a number of new features and improvements, including: Built-in SEO support for the App Router. This makes it easy to add SEO metadata to your pages, such as title, description, and Open Graph tags. Route handlers. This allows you to define custom logic for handling routes, such as authentication or authorization. MDX for Server Components. This makes it easy to use MDX, a popular format for combining Markdown and React, in your server components. Rust MDX parser. This provides a faster and more efficient MDX parser for Next.js. Improved error overlay. The error overlay has been improved to provide more information about errors, such as the stack trace and the line number where the error occurred. Statically typed links (beta). This allows you to statically type links in your code, which can help to prevent errors. Turbopack improvements (alpha). Turbopack is Next.jss new rendering engine, and this version includes a number of improvements, such as better performance and support for dynamic imports. Next.js Cache (beta). This new feature allows you to cache the output of your Next.js application, which can improve performance and reduce bandwidth usage.",
+    "generatemeta": "The generateMetadata function in Next.js is used to define dynamic metadata for a page or layout. Metadata is information about a page that is used by search engines and other applications to index and display the page. It can include things like the title, description, keywords, and canonical URL.",
+    "mongo": "MongoDB is a document-oriented database management system (DBMS) that uses JSON-like documents with dynamic schemas. This makes it very flexible and scalable, and it is a popular choice for modern web applications. MongoDB stores data in collections, which are similar to tables in traditional relational databases. However, documents in a MongoDB collection can have different schemas, which means that they do not need to have the same columns. This makes it very easy to store and query semi-structured and unstructured data. MongoDB is also horizontally scalable, which means that it can be easily scaled by adding more servers. This makes it a good choice for applications that need to handle large amounts of data.",
+    "pOne_textOne": "The personal site of Amir Mohammad Zangibadi is used to create the site using nextjs 14, tailwind css is used in the ui section of the site.",
+    "pOne_textTwo": "You can use the contact me section to ",
+    "pOne_link": "contact me ",
+    "pOne_textThree": "",
+    "pOne_textFour": "I am happy to cooperate with each other in the future.",
+    "pTwo_textOne": "Arnap is one of the oldest sites in the field of online appointments, this site operates in the field of appointments, online counseling.",
+    "pTwo_textTwo": "I have been the developer of this website and I have used nextjs14 to create this website, and I have used tailwind css for the website's UI.",
+    "pTwo_textThree": "This site is designed for mobile first.",
+    "pTwo_textFour": "You can use our online appointment facility by visiting this site.",
+    "pThree_textOne": "My health application, which is designed in the field of health insurance for our dear compatriots.",
+    "pThree_textTwo": "This application is designed for the insured, colleagues, doctors",
+    "pThree_textThree": "This application is related to health insurance services, electronic prescription writing can be mentioned among the benefits it has for doctors.",
+    "pThree_textFour": "This application is designed for Android and iOS. We have used nextjs 14 and ionic library to make this application",
+    "pThree_textFive": "This application is currently in the development phase, so be patient to use the application.",
+
+    "pFour_textOne": "My Barz application, which was designed in the first phase for the employees of one of the largest rubber factories in the country (Barz).",
+    "pFour_textTwo": "The development of this application is done by me. I have used nextjs14 and ionic for development.",
+    "pFour_textThree": "Among the parts of this application, you can mention the online chat part, the training part and the latest news for employees.",
+    "pFour_textFour": "Also, employees can be informed about their check-ups in their user account and also use benefits for online appointments.",
+    "pFour_textFive": "My distinctive application is in the development phase"
+  },
+  "toast": {
+    "title": "Request sent successfully"
+  },
+  "form": {
+    "name": "Name *",
+    "email": "Email *",
+    "sub": "Your Subject *",
+    "desc": "Your Message *",
+    "send": "Send Message"
+  },
+  "education": {
+    "title": "EDUCATION",
+    "study": "Drawing Architecture",
+    "uni": "Shahid Chamran Vocational Technical University, Kerman",
+    "desc": "Architecture is the art and science of designing and constructing buildings and other physical structures. It involves the creative process of planning, designing, and constructing spaces that are functional, aesthetically pleasing, and sustainable. Architects use their knowledge of engineering, principles of design, and practical experience to create spaces that meet the needs of individuals and society. They consider various factors such as the site, materials, environmental impact, and cultural context to create structures that are both visually appealing and functional. Architecture plays a crucial role in shaping the built environment and has a significant impact on the way people live, work, and interact with their surroundings.  "
+  },
+  "experience": {
+    "title": "EXPERIENCE",
+    "job_title": "Front end developer",
+    "company": "Panam company, Kerman",
+    "company_one": "Smarten company, Kerman",
+    "desc": "Currently serving as a front-end developer, specializing in developing modern web applications using JavaScript, React, and the Next.js framework. My primary focus is on delivering high-quality user interfaces and seamless user experiences.",
+    "desc_1": "I worked as a front-end developer, specializing in building modern web applications using JavaScript and React. Additionally, I gained experience working with WordPress to create and manage websites.",
+    "date": "now"
+  },
+
+  "menu": {
+    "home": "Home",
+    "works": "Works",
+    "contact": "Contact",
+    "about": "About",
+    "credential": "Credential"
+  },
+  "resume": {
+    "resume": "Resume"
+  },
+  "LETS": {
+    "one": "LETS",
+    "two": "WORK",
+    "three": "together"
+  },
+  "footer": {
+    "name": "Amirmohammad Zangiabadi",
+    "title": "All rights reserved by "
+  }
+}

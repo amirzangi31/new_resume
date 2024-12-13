@@ -1,0 +1,373 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.base {
+  @apply bg-bg-body text-text-primary overflow-x-hidden;
+}
+
+
+/*----------------------------------Scrolls---------------------------------------------*/
+
+::-webkit-scrollbar {
+
+  width: 10px;
+  height: 10px;
+  /* Customize the scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-primary;
+  /* Customize the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-secondary/50 rounded-[10px] ;
+  /* Customize the scrollbar thumb */
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-secondary;
+  /* Customize the scrollbar thumb */
+}
+
+
+
+/*----------------------------------Scrolls---------------------------------------------*/
+
+
+
+
+
+
+
+/*----------------------------------Btns---------------------------------------------*/
+.btn {
+  @apply px-8 py-2  rounded-lg;
+}
+.btn-sm {
+  @apply px-2 py-1  rounded-lg;
+}
+
+.btn-primary {
+  @apply bg-primary text-white transition-all duration-300;
+}
+.btn-primary:hover {
+  @apply bg-white text-primary;
+}
+.btn-secondary {
+  @apply bg-secondary text-white transition-all duration-300;
+}
+.btn-secondary:hover {
+  @apply bg-white text-secondary;
+}
+
+/*----------------------------------Btns---------------------------------------------*/
+
+/*----------------------------------main---------------------------------------------*/
+main {
+  min-height: calc(100vh - 224px);
+}
+/*----------------------------------main---------------------------------------------*/
+
+/*----------------------------------Row---------------------------------------------*/
+.row-one {
+  @apply md:h-56;
+}
+/*----------------------------------Row---------------------------------------------*/
+
+/*----------------------------------Logo---------------------------------------------*/
+.logo {
+  @apply text-white font-bold flex justify-center items-center rtl:flex-row-reverse animate-logo;
+}
+.logo p::first-letter {
+  @apply text-3xl text-text-primary animate-logo;
+}
+/*----------------------------------Logo---------------------------------------------*/
+
+/*----------------------------------image box---------------------------------------------*/
+.image-box {
+  background: rgb(69, 73, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(69, 73, 252, 1) 0%,
+    rgba(29, 253, 220, 1) 50%,
+    rgba(69, 73, 252, 1) 100%
+  );
+}
+/*----------------------------------image box---------------------------------------------*/
+
+/*----------------------------------navigation---------------------------------------------*/
+.navigation {
+  @apply fixed -top-full left-0 w-full  md:static md:w-auto bg-bg-body md:bg-transparent py-4 md:py-0 z-50 transition-all duration-500;
+  
+}
+.navigation.active {
+  @apply top-0;
+}
+.navigation__menu {
+  @apply flex justify-center items-center flex-col md:flex-row gap-8;
+}
+.navigation__hamburger-btn {
+  @apply md:hidden p-2 bg-primary text-text-primary rounded-lg;
+}
+.navigation.active .navigation__hamburger-close {
+  @apply md:hidden p-2 bg-primary text-text-primary rounded-lg fixed top-4 right-4;
+}
+.navigation__item {
+  @apply relative transition-all duration-300;
+}
+.navigation__item::after {
+  @apply transition-all duration-300;
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  display: block;
+}
+.navigation__item:hover {
+  @apply text-white;
+}
+.navigation__item:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0%;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  display: block;
+}
+.navigation__item.active {
+  @apply text-white;
+}
+.navigation__item.active::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  display: block;
+}
+/*----------------------------------navigation---------------------------------------------*/
+
+/*----------------------------------Card---------------------------------------------*/
+
+.card {
+  @apply p-6 relative   rounded-3xl overflow-hidden  ;
+}
+.card-one {
+  @apply relative   rounded-3xl overflow-hidden;
+}
+.card::after,
+.card-one::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: -1;
+  background: linear-gradient(
+    120deg,
+    rgb(255 255 255 / 12%),
+    rgb(255 255 255 / 1%)
+  );
+}
+.card-project {
+  @apply flex justify-between items-center flex-col;
+}
+.card-project div{
+  @apply w-full;
+}
+.card-project .image-box__project {
+  @apply rounded-3xl h-[150px] overflow-hidden;
+  
+}
+
+.card-project img {
+  animation: image-project 7s ease infinite alternate;
+  -webkit-animation: image-project 7s ease infinite alternate;
+}
+
+
+@keyframes image-project {
+  0% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  100% {
+    transform: translateY(calc(-100% + 150px));
+    -webkit-transform: translateY(calc(-100% + 150px));
+    -moz-transform: translateY(calc(-100% + 150px));
+    -ms-transform: translateY(calc(-100% + 150px));
+    -o-transform: translateY(calc(-100% + 150px));
+  }
+}
+
+/*----------------------------------Card---------------------------------------------*/
+
+/*----------------------------------icon---------------------------------------------*/
+.icon {
+  z-index: 10;
+}
+/*----------------------------------icon---------------------------------------------*/
+
+/*----------------------------------site loader---------------------------------------------*/
+.site-loader {
+  @apply bg-primary;
+  width: 100vw;
+  height: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  opacity: 0.5;
+  animation: site-loader 1500ms ease both;
+  -webkit-animation: site-loader 1500ms ease both;
+}
+
+@keyframes site-loader {
+  0% {
+    height: 0;
+    top: 0;
+  }
+
+  40% {
+    height: 100vh;
+  }
+
+  70% {
+    height: 0vh;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+/*----------------------------------site loader---------------------------------------------*/
+
+/*----------------------------------big text---------------------------------------------*/
+.big-text {
+  font-size: 50px;
+}
+
+@media (max-width: 900px) {
+  .big-text {
+    font-size: 30px;
+  }
+}
+@media (max-width: 420px) {
+  .big-text {
+    font-size: 16px;
+  }
+}
+
+/*----------------------------------big text---------------------------------------------*/
+
+/*----------------------------------form contact---------------------------------------------*/
+
+.form {
+  @apply p-6 relative   rounded-3xl overflow-hidden;
+}
+
+.form::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: -1;
+  background: linear-gradient(
+    120deg,
+    rgb(255 255 255 / 12%),
+    rgb(255 255 255 / 1%)
+  );
+}
+
+.form__control {
+  @apply w-full bg-primary rounded-lg p-4 my-4;
+}
+
+.form__control input,
+.form__control textarea {
+  @apply w-full bg-transparent border-0 outline-none text-white;
+}
+.form__control input::placeholder,
+.form__control textarea::placeholder {
+  @apply text-text-primary;
+}
+
+/*----------------------------------form contact---------------------------------------------*/
+
+/*----------------------------------social item---------------------------------------------*/
+.social-item {
+  @apply p-2 rounded-full border border-white hover:bg-white  transition-all duration-500 text-white hover:text-secondary;
+}
+
+/*----------------------------------social item---------------------------------------------*/
+
+/*----------------------------------profile card---------------------------------------------*/
+.profile-card {
+  @apply md:sticky top-5 left-0;
+}
+/*----------------------------------profile card---------------------------------------------*/
+
+/*----------------------------------modal---------------------------------------------*/
+.modal {
+  @apply px-4  w-screen h-screen fixed left-0 flex justify-center items-center;
+  top: -180%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 101;
+}
+
+.modal.active {
+  @apply top-0;
+}
+
+.modal p span {
+  @apply font-bold text-secondary;
+}
+
+.modal__content {
+  @apply card bg-primary w-full max-w-[800px];
+
+  max-height: calc(100vh - 30px);
+}
+.modal__content-inner {
+  @apply w-full px-4  pb-8 overflow-y-scroll;
+  max-height: calc(100vh - 30px);
+
+}
+/*----------------------------------modal---------------------------------------------*/
+
+/*----------------------------------content-about---------------------------------------------*/
+.content-about .card {
+    @apply w-full block ;
+}
+/*----------------------------------content-about---------------------------------------------*/
+
+
+/*----------------------------------Progress-Bar---------------------------------------------*/
+.progress-bar {
+  @apply fixed bottom-0  h-[5px] left-0  right-0  z-[100] bg-secondary origin-center;
+}
+/*----------------------------------Progress-Bar---------------------------------------------*/
+
+
+/*----------------------------------Divider---------------------------------------------*/
+.divider {
+      @apply bg-primary w-full h-[2px] my-2;
+}
+/*----------------------------------Divider---------------------------------------------*/
